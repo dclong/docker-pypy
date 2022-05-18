@@ -1,6 +1,6 @@
 # NAME: dclong/pypy
 FROM dclong/ubuntu_b
-# GIT: https://github.com/dclong/docker-ubuntu_b.git
+# GIT: https://github.com/legendu-net/docker-ubuntu_b.git
 
 ARG ver=pypy3.7-v7.3.4-linux64
 RUN curl -sSL https://downloads.python.org/pypy/$ver.tar.bz2 -o /tmp/pypy.tar.bz2 \
