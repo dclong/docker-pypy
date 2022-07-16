@@ -8,6 +8,4 @@ RUN curl -sSL https://downloads.python.org/pypy/$ver.tar.bz2 -o /tmp/pypy.tar.bz
     && ln -s /opt/$ver/bin/pypy /usr/local/bin/pypy \
     && pypy -m ensurepip \
     && pypy -m pip install --no-cache-dir \
-        pylint yapf pytest ipython \
-        xinstall
- 
+        pylint yapf pytest ipython
